@@ -1,6 +1,8 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function getResend() {
+  return new Resend(process.env.RESEND_API_KEY);
+}
 
 export interface ContactFormData {
   name: string;
@@ -13,6 +15,7 @@ export interface ContactFormData {
 export async function sendContactEmail(data: ContactFormData) {
   const toEmail = process.env.CONTACT_EMAIL || 'sapp@sapp.cz';
 
+  const resend = getResend();
   return resend.emails.send({
     from: 'Web SAPP <noreply@sapp.cz>',
     to: toEmail,

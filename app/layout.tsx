@@ -34,6 +34,27 @@ export default function RootLayout({
   return (
     <html lang="cs" className={plusJakarta.variable}>
       <body className={`${plusJakarta.className} antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "SAPP Příbram",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Nádražní 15",
+                "postalCode": "261 01",
+                "addressLocality": "Příbram",
+                "addressCountry": "CZ"
+              },
+              "telephone": "+420318625333",
+              "email": "sapp@sapp.cz",
+              "url": "https://www.sapp.cz",
+              "openingHours": "Mo-Fr 08:00-17:00"
+            })
+          }}
+        />
         <Topbar />
         <Navbar />
         {children}
