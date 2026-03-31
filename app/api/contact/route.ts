@@ -3,6 +3,8 @@ import { z } from "zod";
 import { db } from "@/lib/db";
 import { sendContactEmail } from "@/lib/email";
 
+export const dynamic = 'force-dynamic';
+
 const schema = z.object({
   name: z.string().min(2, "Zadejte jméno"),
   email: z.string().email("Zadejte platný email"),

@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 interface DashboardCard {
   title: string;
   count: string;
