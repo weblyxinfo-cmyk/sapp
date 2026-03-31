@@ -3,25 +3,109 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --navy: #0B1D3A;
+  --navy2: #112347;
+  --navy3: #1E3A6E;
+  --yellow: #F5C200;
+  --yellow-dark: #D9AB00;
+  --white: #FFFFFF;
+  --gray: #F2F4F8;
+  --text-muted: #6B7A99;
+  --border: #E3E8F2;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: var(--navy);
+  background: #fff;
+  overflow-x: hidden;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Topbar link hover */
+.topbar-link:hover {
+  color: var(--yellow) !important;
+}
+
+/* Footer link hover */
+.ft-link:hover {
+  color: var(--yellow) !important;
+}
+
+@layer components {
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--yellow);
+  }
+
+  .btn-yellow {
+    background: var(--yellow);
+    color: var(--navy);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 100px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-yellow:hover {
+    background: var(--yellow-dark);
+  }
+
+  .btn-navy {
+    background: var(--navy);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 100px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-navy:hover {
+    background: var(--navy2);
+  }
+
+  .btn-ghost {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
   }
 }

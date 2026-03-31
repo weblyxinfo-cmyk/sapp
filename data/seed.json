@@ -1,0 +1,182 @@
+{
+  "posts": [
+    {
+      "title": "Jarni akce na pracky Electrolux — sleva az 20 %",
+      "slug": "jarni-akce-pracky-electrolux",
+      "perex": "Vyuzijte jarni akci na vybrane pracky Electrolux. Sleva az 20 % a doprava po Pribrami zdarma.",
+      "content": "Pripravili jsme pro vas jarni akci na vybrane modely pracek Electrolux. Sleva az 20 % plati do vyprodani zasob. Ke kazdemu nakupu nad 10 000 Kc nabizime dopravu po Pribrami zcela zdarma. Prijdte si vybrat do nasi prodejny nebo zavolejte a poradime vam po telefonu.",
+      "image_url": "/images/akce-pracky.jpg",
+      "published": 1
+    },
+    {
+      "title": "Nove kavovary Nivona skladem",
+      "slug": "nove-kavovary-nivona-skladem",
+      "perex": "Do nasi nabidky jsme zaradili automaticke kavovary Nivona. Prijdte si vychutnat zkusebni kavu primo v prodejne.",
+      "content": "Jsme radi, ze vam muzeme nabidnout plnoautomaticke kavovary Nivona — svycarska kvalita s ceskou zarukou. V prodejne si muzete kazdou chutnout a nasi poradci vam pomohou vybrat spravny model podle vasich pozadavku. K dispozici jsou modely rady CafeRomatica od 15 990 Kc.",
+      "image_url": "/images/kavovary-nivona.jpg",
+      "published": 1
+    },
+    {
+      "title": "Den otevrenych dveri — navstivte nas 15. dubna",
+      "slug": "den-otevrenych-dveri-duben",
+      "perex": "Zveme vas na Den otevrenych dveri v nasi prodejne. Specialni ceny, poradenstvi a obcerstveni zdarma.",
+      "content": "V sobotu 15. dubna vas zveme na Den otevrenych dveri. Pripravili jsme specialni jednodenne ceny na vybrane spotrebice, moznost konzultace s kuchynskym designerem a samozrejme male obcerstveni. Tesime se na vas v prodejne SAPP na adrese Dlouha 101, Pribram.",
+      "image_url": "/images/den-otevrenych-dveri.jpg",
+      "published": 1
+    }
+  ],
+  "products": [
+    {
+      "name": "Electrolux EW6F428BC PerfectCare 600",
+      "description": "Predni plnici pracka s parnim programem, 8 kg, 1200 ot/min, energeticka trida A.",
+      "brand": "Electrolux",
+      "category": "pracky",
+      "badge": "Top prodej",
+      "visible": 1,
+      "sort_order": 1
+    },
+    {
+      "name": "AEG L7FBE48SC ProSteam",
+      "description": "Pracka s technologii ProSteam pro setrne prani a mensi pomackani, 8 kg, invertor motor.",
+      "brand": "AEG",
+      "category": "pracky",
+      "badge": "Novinka",
+      "visible": 1,
+      "sort_order": 2
+    },
+    {
+      "name": "Electrolux EEM48321L MaxiFlex",
+      "description": "Vestavna mycka nadobi, 60 cm, 14 sad, AirDry technologie, tichý chod 42 dB.",
+      "brand": "Electrolux",
+      "category": "mycky",
+      "badge": null,
+      "visible": 1,
+      "sort_order": 3
+    },
+    {
+      "name": "Gorenje GS643E90X SmartFlex",
+      "description": "Volne stojici mycka nadobi, 16 sad, 6 programu, nerezovy design.",
+      "brand": "Gorenje",
+      "category": "mycky",
+      "badge": "Akce",
+      "visible": 1,
+      "sort_order": 4
+    },
+    {
+      "name": "Liebherr CNsfd 5723 Plus",
+      "description": "Kombinovana chladnicka s mrazakem dole, NoFrost, BioFresh, 371 l, energeticka trida C.",
+      "brand": "Liebherr",
+      "category": "lednice",
+      "badge": "Top prodej",
+      "visible": 1,
+      "sort_order": 5
+    },
+    {
+      "name": "Zanussi ZTAN28FW0",
+      "description": "Dvoudverova lednice s mrazakem nahore, 244 l, staticke chlazeni, bila barva.",
+      "brand": "Zanussi",
+      "category": "lednice",
+      "badge": null,
+      "visible": 1,
+      "sort_order": 6
+    },
+    {
+      "name": "Mora VTS 547 BX",
+      "description": "Kombinovany sporak s elektrickou troubou a plynovym varnym centrem, 50 cm, nerez.",
+      "brand": "Mora",
+      "category": "sporaky",
+      "badge": null,
+      "visible": 1,
+      "sort_order": 7
+    },
+    {
+      "name": "Gorenje GEC6C71WPG",
+      "description": "Volne stojici elektricky sporak, 60 cm, multifunkcni trouba, sklokeramicky varny panel.",
+      "brand": "Gorenje",
+      "category": "sporaky",
+      "badge": "Akce",
+      "visible": 1,
+      "sort_order": 8
+    },
+    {
+      "name": "Electrolux LIR60433 Bridge",
+      "description": "Indukcni vestavna varná deska, 60 cm, funkce Bridge pro spojeni zon, Booster.",
+      "brand": "Electrolux",
+      "category": "vestavne",
+      "badge": "Novinka",
+      "visible": 1,
+      "sort_order": 9
+    },
+    {
+      "name": "Faber Inca Smart C LG A52",
+      "description": "Vestavny odsavac par, 52 cm, 3 stupne vykonu, LED osvetleni, max. 305 m3/h.",
+      "brand": "Faber",
+      "category": "vestavne",
+      "badge": null,
+      "visible": 1,
+      "sort_order": 10
+    },
+    {
+      "name": "Nivona CafeRomatica NICR 790",
+      "description": "Plnoautomaticky kavovar, dvojity mlynek, Aroma Balance System, barevny displej.",
+      "brand": "Nivona",
+      "category": "kavovar",
+      "badge": "Top prodej",
+      "visible": 1,
+      "sort_order": 11
+    },
+    {
+      "name": "Nivona CafeRomatica NICR 520",
+      "description": "Kompaktni automaticky kavovar, tlak 15 bar, 1,8 l nadrz, tichy keramicky mlynek.",
+      "brand": "Nivona",
+      "category": "kavovar",
+      "badge": "Novinka",
+      "visible": 1,
+      "sort_order": 12
+    }
+  ],
+  "gallery": [
+    { "url": "/images/gallery-1.jpg", "caption": "Prodejna SAPP Pribram — hlavni vstup", "sort_order": 1 },
+    { "url": "/images/gallery-2.jpg", "caption": "Expozice kuchynskych spotrebicu", "sort_order": 2 },
+    { "url": "/images/gallery-3.jpg", "caption": "Realizace kuchyne na miru", "sort_order": 3 },
+    { "url": "/images/gallery-4.jpg", "caption": "Servisni dilna", "sort_order": 4 },
+    { "url": "/images/gallery-5.jpg", "caption": "Poradenstvi pri vyberu spotrebicu", "sort_order": 5 },
+    { "url": "/images/gallery-6.jpg", "caption": "Nabidka pracek a susicek", "sort_order": 6 }
+  ],
+  "reviews": [
+    {
+      "text": "Konecne prodejna, kde vam opravdu poradi. Kuchyni jsme navrhli za jedno odpoledne a dodali ji do 3 tydnu.",
+      "author": "Petr & Ivana",
+      "location": "Pribram",
+      "date": "2024",
+      "sort_order": 1,
+      "visible": 1
+    },
+    {
+      "text": "Technik prijel rychle, mycku opravil bezchybne. Skvelý servis od prvni do posledni chvile.",
+      "author": "Marie & Karel",
+      "location": "Hvozdany",
+      "date": "2023",
+      "sort_order": 2,
+      "visible": 1
+    },
+    {
+      "text": "Od navrhu kuchyne az po montaz — vse probehlo naprosto bezchybne. Doporucuji!",
+      "author": "Dana",
+      "location": "Praha",
+      "date": "2014",
+      "sort_order": 3,
+      "visible": 1
+    }
+  ],
+  "settings": [
+    { "key": "company_name", "value": "SAPP Pribram" },
+    { "key": "address", "value": "Dlouha 101, 261 01 Pribram" },
+    { "key": "phone", "value": "+420 318 624 877" },
+    { "key": "mobile", "value": "+420 602 214 494" },
+    { "key": "email", "value": "sapp@sapp.cz" },
+    { "key": "hours_weekday", "value": "Po-Pa: 9:00 - 17:00" },
+    { "key": "hours_saturday", "value": "So: 9:00 - 12:00" },
+    { "key": "hours_sunday", "value": "Ne: zavreno" }
+  ]
+}
